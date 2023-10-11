@@ -1,3 +1,5 @@
+# First way from the Lector
+
 wagons = [0] * int(input())
 
 while True:
@@ -19,3 +21,6 @@ while True:
         index = int(command[1])    
         people = int(command[2]) 
             
+         
+            
+# Second way from me            

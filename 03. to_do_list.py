@@ -1,3 +1,5 @@
+# First way from the Lector
+
 def process_todo_notes():
     todo_notes = []
     
@@ -14,3 +16,5 @@ def process_todo_notes():
 
 result = process_todo_notes()
 print(result)
+
+# Second way from me
