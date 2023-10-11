@@ -11,7 +11,6 @@ print(sort_names())
 
 names = input().split(', ')
 sorted_names = sorted(names, key=len, reverse=True)
-new_sorted_names = sorted(names, key=lambda x: (-len(x), x))
-print(new_sorted_names)
+print(sorted(sorted_names, key=lambda x: (-len(x), x)))
 
 # Third way from me 
