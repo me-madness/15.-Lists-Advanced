@@ -10,7 +10,7 @@ def office_happiness():
     total_count = len(improved_happiness)
     
     message = 'happy' if happy_count >= total_count / 2 else 'not happy'
-    result = f'Score: {happy_count}/{total_count}. Employees {message}'
+    result = f'Score: {happy_count}/{total_count}. Employees are {message}'
     
     return result
 
