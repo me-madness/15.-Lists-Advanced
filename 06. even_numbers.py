@@ -1,5 +1,11 @@
 # First way from the Lector
 
+def even_numbers():
+    numbers = input()
+    
+    even_numbers = list(filter(lambda x: x % 2 == 0), numbers)
+    return even_numbers
 
+print(even_numbers())    
 
 # Second way from me 
