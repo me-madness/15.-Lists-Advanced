@@ -7,8 +7,9 @@ words = input().split()
 palindrome_word = input()
 
 palindrome_list = [word for word in words if palindrome_filtered(word)]
+palindrome_counter = palindrome_list(palindrome_word)
 
-
-
+print(palindrome_list)
+print(f'Found palindrome {palindrome_counter} times')
 
 # Second way from me 
